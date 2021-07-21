@@ -1,6 +1,6 @@
 import React from "react";
-import PropTypes from "prop-types";
-import Painting from "./Painting";
+import PropTypes from "prop-types"
+import Painting from "./Painting/Painting";
 
 const PaintingList = ({ paintings }) => (
     <ul>

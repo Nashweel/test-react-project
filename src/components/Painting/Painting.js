@@ -1,13 +1,14 @@
 import React from "react";
 import PropTypes from "prop-types";
+import s from "./Painting.module.css"
 
 const Painting = ({url, title, tag, price, profileUrl, quantity}) => {
     return (
-    <div>
+    <div className={s.container}>
     <img 
     src={url} 
     alt={title}
-    width="480"
+    width="100%"
     />
     <h2>{title}</h2>
     <p>Автор: <a href={profileUrl}>{tag}</a></p>
